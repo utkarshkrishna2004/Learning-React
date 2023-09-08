@@ -14,7 +14,7 @@ function App() {
   }
 
   const reduceValue = () => {
-    if(counter>0){  //just a check so that the count doesn't go below 0. 
+    if(counter>0){  //just a check so that the count doesn't go below 0 upon decrement. 
       setCounter(counter - 1)  
     }
   }
