@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import backgroundImage from './images/backgroundImage.jpeg'
 import {InputBox} from './components'
 import useCurrencyInfo from './hooks/useCurrencyInfo'
 
@@ -30,7 +30,7 @@ function App() {
         <div
             className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat font-mono font-bold text-xl "
             style={{
-                backgroundImage: `url(https://images.pexels.com/photos/6770775/pexels-photo-6770775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,
+                backgroundImage: `url(${backgroundImage})`,
                 
             }}
         >
