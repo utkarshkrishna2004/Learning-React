@@ -1,11 +1,14 @@
-import "./App.css";
+
+import './App.css'
 
 function App() {
-   return (
-      <>
-         <h1>Learning Context API</h1>
-      </>
-   );
+  
+
+  return (
+    <>
+      <h1>React with Context API</h1>
+    </>
+  )
 }
 
-export default App;
+export default App
